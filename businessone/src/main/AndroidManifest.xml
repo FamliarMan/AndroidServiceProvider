@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jianglei.businessone">
+
+    <application>
+        <meta-data
+            android:name="com.jianglei.businessone.OneApplication"
+            android:value="application" />
+        <meta-data android:name="com.jianglei.businessone.OneModuleName"
+            android:value="module_name"/>
+    </application>
+</manifest>

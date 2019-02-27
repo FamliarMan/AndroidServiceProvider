@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jianglei.businesstwo" >
+    <application>
+        <meta-data
+            android:name="com.jianglei.businesstwo.TwoApplication"
+            android:value="application"/>
+
+        <meta-data android:name="com.jianglei.businesstwo.TwoModuleName"
+            android:value="module_name"/>
+    </application>
+</manifest>
