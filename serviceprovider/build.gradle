@@ -1,5 +1,13 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.9'
+    }
+}
 android {
     compileSdkVersion 28
 
@@ -30,4 +38,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+publish {
+    userOrg = 'famliarman'
+    groupId = 'com.jianglei'//jcenter上的路径
+    artifactId = 'serviceprovider'//项目名称
+    publishVersion = '0.1'//版本号
+    desc = 'A library that can provider service from submodule'
+    website = 'https://github.com/FamliarMan/AndroidServiceProvider'
+    repoName ='Android-lib'
 }
