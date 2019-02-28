@@ -1,4 +1,5 @@
 AndroidServiceProvider是为了解决模块化过程中各模块服务统一获取的难题而产生的，具体情况请参照这篇文章
+[Android模块化中的服务发现机制](https://www.jianshu.com/p/de432a82ed93)
 
 ## 依赖引入
 ```
