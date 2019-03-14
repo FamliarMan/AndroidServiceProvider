@@ -1,6 +1,9 @@
 AndroidServiceProvider是为了解决模块化过程中各模块服务统一获取的难题而产生的，具体情况请参照这篇文章
 [Android模块化中的服务发现机制](https://www.jianshu.com/p/de432a82ed93)
 
+## 注意混淆
+**这里特别强调，所有注册的类都需要避开混淆，因为这里是通过反射实现的**
+
 ## 依赖引入
 ```
 api 'com.jianglei:serviceprovider:0.1'
